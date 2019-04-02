@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(211, 204, 171);
+}
+
+.row{
+    padding-left : 20px;
+}
+
+.headPage{
+    position:absolute; 
+    top:0px; 
+    height:160px; 
+    overflow:hidden;
+}
+
+.contPage{
+    position:absolute;
+    top:160px; 
+    bottom:100px; 
+    overflow:auto
+}
+
+.footPage{
+    position:absolute;
+    bottom:0px; 
+    height:100px; 
+    overflow:hidden;
+}
+
+.footerPage{
+    position: fixed;
+    bottom : 0;
+    width : 100%;
+    background-color: #ccffb3;
+}
+
+.contentPage{
+    width : 100%;
+}
+
+.headerPage{
+    width : 100%;
+    background-color: #f3f1f2;
+} 
